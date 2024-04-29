@@ -1,8 +1,8 @@
-import React, { UseEffect } from 'react';
+
 import Phaser from 'phaser';
 
 function f1(){
-  UseEffect(() => {
+
     const config = {
       type: Phaser.AUTO,
       width: 800,
@@ -272,6 +272,6 @@ function f1(){
     game.scene.add('Game', GameLogic);
     game.scene.add('gameOver', gameOver);
     game.scene.start('Entrer');
-    }, []);
+
     }
     export default f1;
